@@ -16,7 +16,6 @@ const UserPage = async ({
   params
 }: UserPageProps) => {
   const user = await getUserByUsername(params.username);
-
   if (!user || !user.stream) {
     notFound();
   }
