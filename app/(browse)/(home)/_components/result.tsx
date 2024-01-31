@@ -43,7 +43,7 @@ export const ResultSkeleton = () => {
            2xl:grid-cols-5 gap-4'>
             {
               [...Array(4)].map( (_,i)=> (
-                <ResultCardSkeleton/>
+                <ResultCardSkeleton key={i}/>
               ) )
             }
            </div>

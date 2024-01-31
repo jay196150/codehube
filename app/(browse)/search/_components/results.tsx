@@ -12,7 +12,7 @@ async function Results({ term }: ResultsProps) {
   return (
     <div>
         <h2 className="text-lg font-semibold mb-4">
-            Result for term " {term} "
+        Results for term &quot;{term}&quot;
         </h2>
         {
         data.length === 0 && (
@@ -30,6 +30,7 @@ async function Results({ term }: ResultsProps) {
         </div>
     </div>
   )
+  //Results for term &quot;{term}&quot;
 }
 
 export default Results;

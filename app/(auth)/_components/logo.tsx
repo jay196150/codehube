@@ -26,7 +26,7 @@ export const Logo = () => {
                 </p>
                 <p
                 className= "text-sm text-muted-foreground" >
-                    Let's Code
+                    Let&apos;s code
                 </p>
                 </div> 
         </div>
